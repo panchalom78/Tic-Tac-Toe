@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+body{
+    background-color: rgba(0, 106, 255, 0.774);
+}
+
+
+h1 {
+    font-family: "Playwrite IT Moderna", cursive;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+.root{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.root div{
+    border: 1px black solid;
+    
+}
+
+.backx{
+    background-image: url("./2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.backo{
+    background-image: url("./1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
